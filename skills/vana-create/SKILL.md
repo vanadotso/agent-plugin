@@ -18,4 +18,4 @@ Workflow:
 2. Research only when the request genuinely depends on external evidence or source interpretation.
 3. Draft one content-only Markdown protocol per the protocol spec.
 4. Check the draft against every spec rule — sections, style, and per-section requirements — and fix what fails. If a missing fact blocks a safe fix, ask the creator a targeted question instead of saving a partial protocol.
-5. Save the protocol to `protocols/<slug>/protocol.md` in the user's Data, with a short kebab-case slug. A revision replaces the same file.
+5. Save the protocol to `protocols/<slug>/protocol.md` in the user's Data, with a short kebab-case slug. The user's Data is behind the Vana MCP server — save with its `write_file` tool. A revision replaces the same file.

@@ -12,6 +12,8 @@ protocols/<slug>/protocol.md          one protocol: seven H1 sections
 protocols/<slug>/log/<YYYY-MM-DD>.md  one file per day, time-headed entries
 ```
 
+The user's Data is behind the Vana MCP server. Read a protocol or log with its `read_file` tool, save with `write_file`, and list or search with `run_command`.
+
 When the user names a protocol loosely ("my gym protocol"), list `protocols/` and match the slug. If more than one matches, ask which.
 
 A session is one bounded execution of the protocol: a workout, a practice block, a study session, an observation window. A run is the sequence of sessions and their log. Treat the run as a self-experiment: the log must stay comparable across entries, so the review can tell whether the protocol works.
@@ -35,7 +37,7 @@ The step is done when the user has that concrete session, not a summary of the p
 ## Log results
 
 1. Capture what the user reports in the shape from [Log format](references/log-format.md).
-2. Add it to the day's file, `protocols/<slug>/log/<YYYY-MM-DD>.md`, under the day it happened — which is not always today's date.
+2. Add it to the day's file, `protocols/<slug>/log/<YYYY-MM-DD>.md`, under the day it happened — which is not always today's date. `write_file` replaces the whole file: when the day's file exists, read it first and write it back with the new entry appended.
 3. Check the report against `# Boundaries`. If a pause, stop, or escalation criterion matches, tell the user now, not at the next review.
 4. Confirm what you saved in one line.
 
