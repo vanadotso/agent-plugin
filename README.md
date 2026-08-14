@@ -22,8 +22,8 @@ claude plugin install vana@vana
 
 - `plugin.json` defines the portable plugin metadata.
 - `mcp.json` connects the plugin to the hosted VANA MCP server.
-- `skills/protocol-author` creates and revises protocols.
-- `skills/protocol-runner` runs protocols and records progress.
+- `skills/vana-create` exposes `/vana-create` to create and revise protocols.
+- `skills/vana-run` exposes `/vana-run` to run protocols and record progress.
 - `.codex-plugin/plugin.json` defines the Codex plugin.
 - `.agents/plugins/marketplace.json` defines the Codex marketplace.
 - `.claude-plugin/plugin.json` defines the Claude Code plugin.

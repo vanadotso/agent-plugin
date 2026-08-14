@@ -1,5 +1,5 @@
 ---
-name: protocol-runner
+name: vana-run
 description: Run a protocol saved in the user's Data. Use when the user starts a session ("what's next?"), reports results from a session, asks for a progress or adherence review, or asks to change the protocol they are running.
 ---
 
@@ -50,4 +50,4 @@ Log the measures `# Tracking & Review` names, in the same units as every earlier
 
 ## Change the protocol
 
-Revising protocol content is `protocol-author`'s job. Gather what the run has shown — the log evidence, what failed, what the user wants instead — then use that skill to revise the draft. The revision replaces the same `protocols/<slug>/protocol.md`; the log stays.
+Revising protocol content is `/vana-create`'s job. Gather what the run has shown — the log evidence, what failed, what the user wants instead — then use that skill to revise the draft. The revision replaces the same `protocols/<slug>/protocol.md`; the log stays.
