@@ -1,8 +1,6 @@
 # VANA agent plugin
 
-This repository contains the VANA agent plugin for Codex and Claude Code. The
-plugin connects each harness to the hosted VANA MCP server and adds skills that
-help people create, run, and review personal protocols.
+This repository contains the VANA agent plugin for Codex and Claude Code. The plugin connects each harness to the hosted VANA MCP server and adds skills that help people create, run, and review personal protocols.
 
 ## Install
 
@@ -31,20 +29,17 @@ claude plugin install vana@vana
 - `.claude-plugin/plugin.json` defines the Claude Code plugin.
 - `.claude-plugin/marketplace.json` defines the Claude Code marketplace.
 
-The host manifests and marketplaces are generated files. To regenerate them,
-install [Bun](https://bun.sh/) and run:
+The host manifests and marketplaces are generated files. To regenerate them, install [Bun](https://bun.sh/) and run:
 
 ```sh
+bun install
 bun run package
 ```
 
-For a release, change the version in `plugin.json`, regenerate the host files,
-commit all changes, and create a Git tag with the same version, such as
-`v1.1.0`.
+For a release, change the version in `plugin.json`, regenerate the host files, commit all changes, and create a Git tag with the same version, such as `v1.1.0`.
 
 The hosted MCP server implementation is not part of this repository.
 
 ## License
 
-The source in this repository uses the Apache License 2.0. The license does not
-grant rights to the VANA name or trademarks.
+The source in this repository uses the Apache License 2.0. The license does not grant rights to the VANA name or trademarks.

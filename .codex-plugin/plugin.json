@@ -11,10 +11,7 @@
   "skills": "./skills/",
   "version": "1.0.0",
   "interface": {
-    "capabilities": [
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Read", "Write"],
     "category": "Healthcare",
     "defaultPrompt": [
       "Create a protocol from this podcast and fit it into my routine",
