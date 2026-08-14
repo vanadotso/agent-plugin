@@ -1,11 +1,11 @@
 ---
-name: protocol-author
+name: vana-create
 description: Author one bounded, reusable, content-only Markdown protocol. Use when the user wants to create a protocol or revise the content of a saved one.
 ---
 
 # Protocol Author
 
-Use this skill to draft, revise, or validate protocol content. Running a saved protocol — sessions, logging, reviews — is `protocol-runner`'s job.
+Use this skill to draft, revise, or validate protocol content. Running a saved protocol — sessions, logging, reviews — is `/vana-run`'s job.
 
 Reference files:
 
