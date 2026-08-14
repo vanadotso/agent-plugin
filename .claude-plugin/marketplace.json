@@ -1,0 +1,19 @@
+{
+  "description": "VANA plugins for personal protocol creation and execution.",
+  "name": "vana",
+  "owner": {
+    "name": "VANA Labs",
+    "url": "https://vana.so"
+  },
+  "plugins": [
+    {
+      "category": "Healthcare",
+      "description": "Create, run, and review personal protocols with VANA.",
+      "displayName": "VANA",
+      "license": "Apache-2.0",
+      "name": "vana",
+      "repository": "https://github.com/vanadotso/agent-plugin",
+      "source": "./"
+    }
+  ]
+}

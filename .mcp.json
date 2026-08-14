@@ -1,0 +1,6 @@
+{
+  "vana": {
+    "type": "http",
+    "url": "https://api.vana.so/mcp"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "VANA"
+  },
+  "name": "vana",
+  "plugins": [
+    {
+      "category": "Healthcare",
+      "name": "vana",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./",
+        "source": "local"
+      }
+    }
+  ]
+}

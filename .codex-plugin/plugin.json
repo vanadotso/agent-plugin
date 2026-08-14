@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "VANA Labs",
+    "url": "https://vana.so"
+  },
+  "description": "Health is personal. Your Protocol should be too. Bring VANA a goal, a podcast, a training plan, or health information, and turn it into something you can actually follow. Then run it, check in, make changes, and learn what works for you. With VANA in ChatGPT you can: • Turn ideas, goals, and expert advice into practical protocols • Personalize a protocol around your routine and health information • Connect activity data to give your protocol more context • Adjust the plan when life or your recovery changes • Review your progress, patterns, and adherence over time",
+  "homepage": "https://vana.so",
+  "license": "Apache-2.0",
+  "name": "vana",
+  "repository": "https://github.com/vanadotso/agent-plugin",
+  "skills": "./skills/",
+  "version": "1.0.0",
+  "interface": {
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "category": "Healthcare",
+    "defaultPrompt": [
+      "Create a protocol from this podcast and fit it into my routine",
+      "Use my Garmin data to prepare me for a 50-mile ride Saturday",
+      "Review my new bloodwork and update the protocol I'm running"
+    ],
+    "developerName": "VANA Labs",
+    "displayName": "VANA",
+    "longDescription": "Health is personal. Your Protocol should be too. Bring VANA a goal, a podcast, a training plan, or health information, and turn it into something you can actually follow. Then run it, check in, make changes, and learn what works for you. With VANA in ChatGPT you can: • Turn ideas, goals, and expert advice into practical protocols • Personalize a protocol around your routine and health information • Connect activity data to give your protocol more context • Adjust the plan when life or your recovery changes • Review your progress, patterns, and adherence over time",
+    "privacyPolicyURL": "https://vanalabs.notion.site/privacy-policy",
+    "shortDescription": "Create & run health protocols",
+    "termsOfServiceURL": "https://vanalabs.notion.site/terms-conditions",
+    "websiteURL": "https://vana.so"
+  },
+  "mcpServers": {
+    "vana": {
+      "oauth_resource": "https://api.vana.so/mcp",
+      "type": "http",
+      "url": "https://api.vana.so/mcp"
+    }
+  }
+}
