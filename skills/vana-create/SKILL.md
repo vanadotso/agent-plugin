@@ -19,3 +19,4 @@ Workflow:
 3. Draft one content-only Markdown protocol per the protocol spec.
 4. Check the draft against every spec rule — sections, style, and per-section requirements — and fix what fails. If a missing fact blocks a safe fix, ask the creator a targeted question instead of saving a partial protocol.
 5. Save the protocol to `protocols/<slug>/protocol.md` in the user's Data, with a short kebab-case slug. The user's Data is behind the Vana MCP server — save with its `write_file` tool. A revision replaces the same file.
+6. After `write_file` succeeds, keep the usual concise summary and link the user to the full protocol. Build the link by adding `https://vana.so` before the returned `publicPath`. Say whether you created or updated it, for example: `I created your protocol — [check it out here](https://vana.so/p/<protocol-id>).`
