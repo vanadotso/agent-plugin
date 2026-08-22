@@ -24,6 +24,7 @@ claude plugin install vana@vana
 - `mcp.json` connects the plugin to the hosted VANA MCP server.
 - `skills/vana-create` exposes `/vana-create` to create and revise protocols.
 - `skills/vana-run` exposes `/vana-run` to run protocols and record progress.
+- `skills/vana-source` reads text, audio, and video links as source material.
 - `.codex-plugin/plugin.json` defines the Codex plugin.
 - `.agents/plugins/marketplace.json` defines the Codex marketplace.
 - `.claude-plugin/plugin.json` defines the Claude Code plugin.
